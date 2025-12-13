@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Set a default dark theme background for a modern look */
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: sans-serif; /* You can import a Google Font here later */
+}
