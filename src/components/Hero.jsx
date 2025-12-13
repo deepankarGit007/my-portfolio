@@ -45,8 +45,15 @@ const Hero = () => {
          className='flex gap-6'
       >
         {/* Replace # with your actual links */}
-        <a href="#" className="text-gray-400 hover:text-accent text-3xl transition-colors"><FaGithub /></a>
-        <a href="#" className="text-gray-400 hover:text-accent text-3xl transition-colors"><FaLinkedin /></a>
+        <a href="https://github.com/deepankarGit007" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-accent text-3xl transition-colors"><FaGithub /></a>
+        <a 
+        href="https://www.linkedin.com/in/deepankar-karn" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-accent text-3xl transition-colors"><FaLinkedin /></a>
       </motion.div>
 
     </div>
