@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
-import Experience from "./components/Experience"; // Added
-import TechStack from "./components/TechStack";   // Added
+import Experience from "./components/Experience"; 
+import TechStack from "./components/TechStack";   
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";       // Added
+import GenAI from "./components/GenAI";           
+import Contact from "./components/Contact";       
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
        <Experience />
        <TechStack />
        <Projects />
+       <GenAI />     
        <Contact />
     </div>
   )
