@@ -31,7 +31,7 @@ const Contact = () => {
       </div>
 
       <p className='text-gray-600 text-sm'>
-        © {new Date().getFullYear()} Deepankar Karn. Built with React & Tailwind.
+        © {new Date().getFullYear()} Deepankar Karn. All rights reserved.
       </p>
     </div>
   )

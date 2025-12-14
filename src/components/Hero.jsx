@@ -23,7 +23,7 @@ const Hero = () => {
         transition={{ duration: 0.5, delay: 0.2 }} // Add delay so it appears after the line above
         className='text-4xl md:text-7xl font-bold text-gray-200 mb-4'
       >
-        [Deepankar Karn].
+        [Deepankar Karn]
       </motion.h1>
 
       {/* 3. The Tagline */}

@@ -7,7 +7,7 @@ const projects = [
     title: "Inflation-Adjusted SIP Calculator",
     description: "A robust financial tool projecting returns over a 30-year horizon. Integrates the World Bank API to fetch real-time CPI data for dynamic inflation-adjusted maturity calculations. Features custom error handling and asynchronous programming.",
     tech: ["C#", ".NET", "RESTful API", "Async/Await"],
-    github: "#", 
+    github: "https://github.com/deepankarGit007/SIP_Calculator_ConsoleApp.git", 
     demo: null 
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     title: "Console Banking System",
     description: "A scalable banking application built on SOLID principles. Implemented the Factory Design Pattern for account creation (Savings/Current) and a custom exception handling framework to ensure transaction safety.",
     tech: ["C#", ".NET", "Factory Pattern", "OOP"],
-    github: "#", 
+    github: "https://github.com/deepankarGit007/BankingConsoleApp.git", 
     demo: null
   }
 ]
