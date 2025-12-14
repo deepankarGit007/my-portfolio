@@ -31,15 +31,32 @@ const Navbar = () => {
       </motion.div>
 
       {/* --- Navigation Links (Placeholder for future) --- */}
+      {/* --- Navigation Links --- */}
       <motion.ul 
         initial={{ opacity: 0, x: 20 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5, delay: 0.2 }}
         className='hidden md:flex gap-8 text-gray-400 font-medium'
       >
-        <li> <a href="#projects" className='hover:text-accent transition-colors'>Projects</a> </li>
-        <li className='hover:text-accent cursor-pointer transition-colors'>About</li>
-        <li className='hover:text-accent cursor-pointer transition-colors'>Contact</li>
+        {/* About Link */}
+        <li>
+            <a href="#about" className='hover:text-accent transition-colors'>About</a>
+        </li>
+        
+        {/* Experience Link (NEW) - Links to your timeline */}
+        <li>
+            <a href="#experience" className='hover:text-accent transition-colors'>Experience</a>
+        </li>
+
+        {/* Projects Link */}
+        <li>
+            <a href="#projects" className='hover:text-accent transition-colors'>Projects</a>
+        </li>
+
+        {/* Contact Link (UPDATED) - Now clickable */}
+        <li>
+            <a href="#contact" className='hover:text-accent transition-colors'>Contact</a>
+        </li>
       </motion.ul>
     </nav>
   )

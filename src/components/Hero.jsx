@@ -1,7 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Importing icons
-
+import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
 const Hero = () => {
   return (
     // Tailwind classes for centering and full height
@@ -54,6 +53,14 @@ const Hero = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="text-gray-400 hover:text-accent text-3xl transition-colors"><FaLinkedin /></a>
+        <a 
+          href="https://www.instagram.com/deepankarkarn/?igsh=eTFydGt5Znd5ZTA%3D#" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-gray-400 hover:text-accent text-3xl transition-colors"
+        >
+          <FaInstagram />
+        </a>
       </motion.div>
 
     </div>

@@ -1,14 +1,21 @@
+import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
+import Experience from "./components/Experience"; // Added
+import TechStack from "./components/TechStack";   // Added
 import Projects from "./components/Projects";
-import Navbar from "./components/Navbar"; // 1. Import it
+import Contact from "./components/Contact";       // Added
 
 function App() {
   return (
-    // Added 'relative' here so the absolute positioned navbar sits correctly
-    <div className="bg-primary overflow-x-hidden relative"> 
-       <Navbar /> {/* 2. Add it at the top */}
+    <div className="bg-primary overflow-x-hidden relative text-gray-200 font-sans"> 
+       <Navbar />
        <Hero />
+       <About />
+       <Experience />
+       <TechStack />
        <Projects />
+       <Contact />
     </div>
   )
 }
