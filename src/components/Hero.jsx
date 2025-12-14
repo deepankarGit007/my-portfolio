@@ -26,14 +26,14 @@ const Hero = () => {
         [Deepankar Karn]
       </motion.h1>
 
-      {/* 3. The Tagline */}
+      {/* 3. The Tagline - Sized Down */}
       <motion.h2 
          initial={{ opacity: 0, y: 20 }}
          animate={{ opacity: 1, y: 0 }}
          transition={{ duration: 0.5, delay: 0.4 }}
-        className='text-3xl md:text-5xl font-bold text-gray-400 mb-8'
+        className='text-xl md:text-4xl font-bold text-gray-400 mb-8'
       >
-        I build cool stuffs.
+        Bridging the gap between <span className='text-accent'>Logic</span> and <span className='text-accent'>Creativity</span>.
       </motion.h2>
       
       {/* 4. Social Icons */}
