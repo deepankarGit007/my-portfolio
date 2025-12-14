@@ -1,10 +1,10 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaArrowDown } from 'react-icons/fa';
 const Hero = () => {
   return (
     // Tailwind classes for centering and full height
-    <div className='h-screen flex flex-col justify-center items-start px-8 md:px-20'>
+    <div className='h-screen flex flex-col justify-center items-start px-8 md:px-20 relative'>
         
       {/* 1. The Intro Text */}
       <motion.p 
@@ -60,6 +60,24 @@ const Hero = () => {
           className="text-gray-400 hover:text-accent text-3xl transition-colors"
         >
           <FaInstagram />
+        </a>
+      </motion.div>
+
+      <motion.div 
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1, duration: 1 }}
+        className='absolute bottom-10 left-1/2 -translate-x-1/2'
+      >
+        <a href="#about" className='flex flex-col items-center cursor-pointer'>
+          <span className='text-gray-500 text-xs mb-2 tracking-widest uppercase'>Scroll</span>
+          <motion.div
+            animate={{ y: [0, 10, 0] }}
+            transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
+            className='text-accent text-2xl border border-slate-700 p-2 rounded-full hover:bg-slate-800 transition-colors'
+          >
+            <FaArrowDown />
+          </motion.div>
         </a>
       </motion.div>
 
