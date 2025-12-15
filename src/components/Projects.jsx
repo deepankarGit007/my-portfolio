@@ -11,7 +11,7 @@ const projects = [
     demo: null 
   },
   {
-    title: "Yatrik Travel & Tourism App",
+    title: "Yatrik Travel App",
     description: "A responsive Single Page Application (SPA) for travel planning. implemented Firebase Authentication for user sessions and Realtime Database for itinerary storage. Features a CI/CD pipeline via Netlify and GitHub Actions.",
     tech: ["React.js", "Firebase", "Tailwind CSS", "CI/CD"],
     github: "https://github.com/deepankarGit007/yatrik.git", 
