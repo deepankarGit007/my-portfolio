@@ -22,7 +22,7 @@ const Experience = () => {
             className='border-l-4 border-accent pl-6 ml-2 md:ml-0'
         >
             <h3 className='text-2xl font-bold text-gray-100'>Junior Application Support Analyst (Intern)</h3>
-            <p className='text-accent text-lg font-mono mb-2'>EPAM Systems | Jan 2025 – Jul 2025</p>
+            <p className='text-accent text-lg font-mono mb-2'>EPAM Systems | Jan 2025 – Jun 2025</p>
             <p className='text-gray-400 mb-4'>Hyderabad, Telangana</p>
             <ul className='list-disc list-inside text-gray-300 space-y-2 leading-relaxed'>
                 <li>Analyzed and troubleshot complex production issues using <strong>C# debugging</strong> and log analysis.</li>
