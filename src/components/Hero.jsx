@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaGithub, FaLinkedin, FaInstagram, FaArrowDown } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaArrowDown, FaFileDownload } from 'react-icons/fa';
 const Hero = () => {
   return (
     // Tailwind classes for centering and full height
@@ -36,6 +36,23 @@ const Hero = () => {
         Bridging the gap between <span className='text-accent'>Logic</span> and <span className='text-accent'>Creativity</span>.
       </motion.h2>
       
+      {/* --- RESUME BUTTON --- */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.5, delay: 0.6 }}
+        className="mb-8"
+      >
+        <a 
+            href="/resume.pdf" 
+            download="Deepankar_Karn_Resume.pdf" // This name appears when they download it
+            className="group flex items-center gap-3 bg-accent text-slate-900 px-6 py-3 rounded-full font-bold text-lg hover:bg-white hover:scale-105 transition-all shadow-[0_0_20px_rgba(56,189,248,0.3)] hover:shadow-[0_0_30px_rgba(56,189,248,0.5)]"
+        >
+            <FaFileDownload className="group-hover:animate-bounce" />
+            Download Resume
+        </a>
+      </motion.div>
+
       {/* 4. Social Icons */}
       <motion.div 
          initial={{ opacity: 0 }}
